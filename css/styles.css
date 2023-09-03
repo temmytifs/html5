@@ -21,6 +21,12 @@ Host your solution on Github Pages and link for the solution to be shared on pum
 
 
 /*======= Create a new universal selector that changes the font color to: #3C373B */
+*{
+font-color: #3C373B;
+/*======= Create a new universal selector that changes the font color to: #3C373B */
+}
+  
+
 
 
 h1 {
