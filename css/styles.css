@@ -165,15 +165,16 @@ footer nav a:first-child {
   margin-left: 0;
 }
 
-footer div nav a:hover {
+footer .footer-content nav a:hover {
 
   background-color: white;
+  width: 50px;
+  height: 50px;
+  background:aliceblue;
   animation-name: embed;
   animation-duration: 4s;
-  from {background-color: white;}
-  to {background-color: red;}
+  transition: width 4s;
 }
-  
     
 /*======= Create a hover state for the anchor tag in the footer nav to have the following styles:
   color: white;
